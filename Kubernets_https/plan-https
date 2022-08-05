@@ -1,0 +1,19 @@
+1. Install nginx controler
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.2.0/deploy/static/provider/cloud/deploy.yaml
+
+2. Install cert-manager
+https://cert-manager.io/v1.1-docs/installation/kubernetes/#installing-the-kubectl-plugin
+
+3. Need register free DNS (freenom.com)
+
+4. Configurung DNS in Cloud (Azure,AWS,GCP)
+https://www.youtube.com/watch?v=OKvOvHuOnrw&ab_channel=storagefreak
+
+5. Configuring lensencrypt-prod.yaml
+
+6. Deploy deployment.yaml and service.yaml
+
+7. Configuring and deploy Ingress.yaml
+
+
+Enjoy!

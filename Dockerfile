@@ -1,5 +1,7 @@
-FROM node:14-alpine as builder
+FROM node:14-alpine as node
+WORKDIR /app
+COPY package.json /app
 RUN npm install
-COPY . .
-CMD npm run start
+COPY . /app
+CMD ["node", "app.js"]
 EXPOSE 5000
